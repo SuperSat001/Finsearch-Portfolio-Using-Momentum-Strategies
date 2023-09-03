@@ -1,0 +1,140 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=0.7in, top=1in, bottom=1in]{geometry}
+\usepackage[parfill]{parskip}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage{tcolorbox}
+\tcbuselibrary{theorems}
+\newtcbtheorem[number within=section]{defn}{Definition}%
+{colback=blue!5,colframe=blue!50!black,fonttitle=\bfseries,before
+skip=20pt plus 2pt,after skip=20pt plus 2pt}{dfn}
+\newtcbtheorem[number within=section]{thm}{Theorem}%
+{colback=red!5,colframe=red!50!black,fonttitle=\bfseries,before
+skip=20pt plus 2pt,after skip=20pt plus 2pt}{th}
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{Portfolio using Momentum Strategy}
+\rhead{Group - D10}
+\lhead{Finsearch' 23}
+\cfoot{\thepage}
+
+
+\begin{document}
+\pagenumbering{gobble}
+
+\begin{titlepage}
+    \vspace*{\fill}
+    \begin{center}
+        \Large Finsearch'23 - Endterm Report \\[0.5cm]
+        \fontsize{40pt}{40pt}\selectfont\textbf{Portfolio using \\ Momentum Strategy} \\[1cm]
+        {\Large Anilesh Bansal (22B0914) \\ Satyankar Chandra (22B0967) \\ Soham Dahane (22B0941) \\ Utkarsh Pant (22B0928)\\ Dept of Computer Science, IIT Bombay}\\
+    \end{center}
+    \vspace*{\fill}
+    \begin{center}
+        \Large Mentored by Chandrika Aggrawal
+    \end{center}
+\end{titlepage}
+
+\thispagestyle{empty}
+
+\clearpage
+
+\begin{titlepage}
+    \vspace*{\fill}
+    \begin{center}
+        \includegraphics[width = 10cm]{stonks.jpeg}
+    \end{center}
+    \vspace{40pt}
+    \begin{center}
+        \fontsize{25pt}{25pt}\selectfont Buy cheap; buy strong; hold 'em long.
+    \end{center}
+    \vspace*{\fill}
+\end{titlepage}
+
+\tableofcontents
+
+\newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\section{Introduction}
+\input{intro.tex}
+\newpage
+
+\section{Aim and Roadmap}
+\input{intro.tex}
+\newpage
+
+\section{What is Momentum and Why it works}
+\input{intro.tex}
+\newpage
+
+\section{Developing a Momentum Strategy}
+\input{intro.tex}
+\newpage
+
+\section{Strategy considerations}
+\input{intro.tex}
+\newpage
+
+\section{Coding and Backtesting}
+\input{intro.tex}
+\newpage
+
+\section{Results and Conclusion}
+\input{intro.tex}
+\newpage
+
+\section{Risk Analysis and Management}
+\input{intro.tex}
+\newpage
+
+\section{Mean Revision}
+\input{intro.tex}
+\newpage
+
+\section{Conclusion}
+\input{intro.tex}
+\newpage
+
+\appendix
+\section{Data Collection}
+\input{intro.tex}
+\newpage
+
+\section{Credits}
+\input{intro.tex}
+\newpage
+
+
+
+
+% \begin{figure}[htb]\hspace*{\fill}
+% \begin{game}{2}{2}[Player 1][Player 2][TCP Playoff Game]
+% & L & R\\
+% T &2,2 &100,35\\
+% B &3,0 &350,16
+% \end{game}
+% \hspace*{\fill}\label{tcp}
+% \end{figure}
+
+
+
+
+% \begin{defn}{This is my title}{theoexample}
+%   This is the text of the theorem. The counter is automatically assigned and,
+%   in this example, prefixed with the section number. This theorem is numbered with
+%   \ref{th:theoexample} and is given on page \pageref{th:theoexample}.
+% \end{defn}
+
+
+\end{document}
