@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {4}Developing a Momentum Strategy}{4}{section.4}%
 \contentsline {section}{\numberline {5}Strategy considerations}{5}{section.5}%
 \contentsline {section}{\numberline {6}Coding and Backtesting}{6}{section.6}%
-\contentsline {section}{\numberline {7}Results and Conclusion}{7}{section.7}%
+\contentsline {section}{\numberline {7}Results Discussion}{7}{section.7}%
 \contentsline {section}{\numberline {8}Risk Analysis and Management}{8}{section.8}%
 \contentsline {section}{\numberline {9}Mean Revision}{9}{section.9}%
 \contentsline {section}{\numberline {10}Conclusion}{10}{section.10}%
